@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Home Finder the most advanced application for find a home"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Finder</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="wrapper">
+				<div class="header-inner">
+					<a href="/" class="logo">Homefinder</a>
+					<nav class="menu">
+						<a href="#" class="nav-link">Home</a>
+						<a href="#" class="nav-link">Feature</a>
+						<a href="#" class="nav-link">Service</a>
+						<a href="#" class="nav-link">Review</a>
+						<a href="#" class="nav-link">Contact</a>
+						<a href="#" class="btn btn-secondary">Sign Up</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="hero">
+			<div class="wrapper">
+				<div class="hero-inner">
+					<h1 class="hero-title">
+						Find the appartment of your dream
+					</h1>
+					<div class="search-appartment-wrapper">
+						<div class="tab-list">
+							<button class="tab selected">Rent</button
+							><button class="tab">Buy</button>
+						</div>
+						<form class="search-appartment-form">
+							<div class="form-group">
+								<label for="location">Location</label
+								><select class="form-control" id="location">
+									<option value="option-1">New York</option>
+									<option value="option-1">Seattle</option>
+									<option value="option-1">
+										San Francisco
+									</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="appartment-type"
+									>Appartment type</label
+								><select
+									class="form-control"
+									id="appartment-type"
+								>
+									<option value="option-1">Duplex</option>
+									<option value="option-1">Opción 2</option>
+									<option value="option-1">Opción 3</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="max-price">Max Price</label
+								><select class="form-control" id="max-price">
+									<option value="option-1">$5000</option>
+									<option value="option-1">$8000</option>
+									<option value="option-1">$10000</option>
+								</select>
+							</div>
+							<button type="button" class="btn btn-primary">
+								Search appartment
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="why-chose">
+			<div class="wrapper">
+				<h2 class="headline">Why Chose Us</h2>
+				<div class="chose-grid">
+					<div class="chose-card">
+						<div class="card-circle">
+							<img src="img/icon-tax.svg" alt="" />
+						</div>
+						<h3 class="chose-card-title">Tax advantage</h3>
+						<p class="chose-card-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Mattis enim at posuere mi augue volutpat
+							viverra.
+						</p>
+					</div>
+					<div class="chose-card">
+						<div class="card-circle">
+							<img src="img/icon-insurance.svg" alt="" />
+						</div>
+						<h3 class="chose-card-title">Appartment insurance</h3>
+						<p class="chose-card-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Mattis enim at posuere mi augue volutpat
+							viverra.
+						</p>
+					</div>
+					<div class="chose-card">
+						<div class="card-circle">
+							<img src="img/icon-commission.svg" alt="" />
+						</div>
+						<h3 class="chose-card-title">Less commission</h3>
+						<p class="chose-card-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Mattis enim at posuere mi augue volutpat
+							viverra.
+						</p>
+					</div>
+					<div class="chose-card">
+						<div class="card-circle">
+							<img src="img/icon-condition.svg" alt="" />
+						</div>
+						<h3 class="chose-card-title">Good condition</h3>
+						<p class="chose-card-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Mattis enim at posuere mi augue volutpat
+							viverra.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="featured">
+			<div class="wrapper">
+				<h2 class="headline"><span>Featured</span> Apartments</h2>
+				<div class="tab-list">
+					<button class="tab selected">House</button
+					><button class="tab">Apartments</button>
+				</div>
+				<div class="featured-grid">
+					<div class="card">
+						<img
+							src="img/featured-1.jpg"
+							alt="Cozy Manion"
+							class="card-img"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Cozy Manion</h3>
+							<div class="card-features">
+								<span class="feature">
+									<img src="img/icon-rooms.svg" alt="" />
+									4
+								</span>
+								<span class="feature">
+									<img src="img/icon-bath.svg" alt="" />
+									3
+								</span>
+								<span class="feature">
+									<img src="img/icon-price.svg" alt="" />
+									<span class="price">700</span>/per month
+								</span>
+							</div>
+							<div class="card-bottom">
+								<span class="location">
+									<img src="img/icon-location.svg" alt="" />
+									New York, USA
+								</span>
+								<a
+									href="#"
+									class="btn btn-primary"
+									aria-label="View More"
+								>
+									<img
+										src="img/icon-arrow-right.svg"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="img/featured-2.jpg"
+							alt="Pixy Manion"
+							class="card-img"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Pixy Manion</h3>
+							<div class="card-features">
+								<span class="feature">
+									<img src="img/icon-rooms.svg" alt="" />
+									3
+								</span>
+								<span class="feature">
+									<img src="img/icon-bath.svg" alt="" />
+									3
+								</span>
+								<span class="feature">
+									<img src="img/icon-price.svg" alt="" />
+									<span class="price">900</span>/per month
+								</span>
+							</div>
+							<div class="card-bottom">
+								<span class="location">
+									<img src="img/icon-location.svg" alt="" />
+									New York, USA
+								</span>
+								<a
+									href="#"
+									class="btn btn-primary"
+									aria-label="View More"
+								>
+									<img
+										src="img/icon-arrow-right.svg"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="img/featured-3.jpg"
+							alt="Marta Manion"
+							class="card-img"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Marta Manion</h3>
+							<div class="card-features">
+								<span class="feature">
+									<img src="img/icon-rooms.svg" alt="" />
+									2
+								</span>
+								<span class="feature">
+									<img src="img/icon-bath.svg" alt="" />
+									2
+								</span>
+								<span class="feature">
+									<img src="img/icon-price.svg" alt="" />
+									<span class="price">500</span>/per month
+								</span>
+							</div>
+							<div class="card-bottom">
+								<span class="location">
+									<img src="img/icon-location.svg" alt="" />
+									New York, USA
+								</span>
+								<a
+									href="#"
+									class="btn btn-primary"
+									aria-label="View More"
+								>
+									<img
+										src="img/icon-arrow-right.svg"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="img/featured-4.jpg"
+							alt="Richi Manion"
+							class="card-img"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Richi Manion</h3>
+							<div class="card-features">
+								<span class="feature">
+									<img src="img/icon-rooms.svg" alt="" />
+									3
+								</span>
+								<span class="feature">
+									<img src="img/icon-bath.svg" alt="" />
+									2
+								</span>
+								<span class="feature">
+									<img src="img/icon-price.svg" alt="" />
+									<span class="price">600</span>/per month
+								</span>
+							</div>
+							<div class="card-bottom">
+								<span class="location">
+									<img src="img/icon-location.svg" alt="" />
+									New York, USA
+								</span>
+								<a
+									href="#"
+									class="btn btn-primary"
+									aria-label="View More"
+								>
+									<img
+										src="img/icon-arrow-right.svg"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid-controls">
+					<button class="control left" title="Previous">
+						<svg
+							width="24"
+							height="14"
+							viewBox="0 0 24 14"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0 5.94974H20.9276L16.1128 1.13491L17.2477 0L24 6.75231L17.2477 13.5046L16.1128 12.3697L20.9277 7.55477H0V5.94974Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</button>
+					<button class="control right" title="Next">
+						<svg
+							width="24"
+							height="14"
+							viewBox="0 0 24 14"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0 5.94974H20.9276L16.1128 1.13491L17.2477 0L24 6.75231L17.2477 13.5046L16.1128 12.3697L20.9277 7.55477H0V5.94974Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="house-week">
+			<div class="wrapper">
+				<h2 class="headline">House of The <span>Week</span></h2>
+				<div class="house-week-grid">
+					<div class="announce">
+						<div class="announce-top">
+							<button class="announce-control" title="Previous">
+								<img
+									src="img/icon-circle-arrow-left.svg"
+									alt=""
+								/>
+							</button>
+							<img
+								class="announce-img"
+								src="img/house-week.jpg"
+								alt=""
+							/>
+							<button class="announce-control" title="Next">
+								<img
+									src="img/icon-circle-arrow-right.svg"
+									alt=""
+								/>
+							</button>
+						</div>
+
+						<div class="announce-info">
+							<span class="category">Featured</span>
+							<div class="announce-info-body">
+								<h3>Prince Villa</h3>
+								<p>
+									Enjoy serenity of Deering Bay whole day from
+									this spectacular North and South, three
+									bedroom, three and a half bath…
+								</p>
+								<div class="house-features">
+									<span class="feature">
+										<img src="img/icon-rooms.svg" alt="" />
+										3
+									</span>
+									<span class="feature">
+										<img src="img/icon-bath.svg" alt="" />
+										2
+									</span>
+									<span class="feature">
+										<img src="img/icon-price.svg" alt="" />
+										<span class="price">1000</span> / per
+										month
+									</span>
+								</div>
+								<div class="house-cta">
+									<a href="#" class="btn btn-primary"
+										>Explore</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="wrapper">
+				<h2 class="headline">Let See What Our Clients Says</h2>
+				<p class="section-legend">
+					We Have Over 20000+ Clients, and this number is incresaing
+					day by day. Are you our next client
+				</p>
+				<div class="reviews-grid">
+					<img
+						src="img/review-1.jpg"
+						alt="Lara Max"
+						class="review-photo"
+					/>
+					<div class="review-content">
+						<p class="review-title">Client review</p>
+						<p class="review-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Ipsum tellus accumsan tincidunt amet, maecenas
+							aliquam. Aliquet leo mauris rhoncus dui quam nulla
+							auctor placerat.
+						</p>
+						<p class="review-client-name">Lara Max</p>
+						<p class="review-location">New York, USA</p>
+						<div class="review-rating">
+							<img src="img/icon-star.svg" alt="" />
+							<img src="img/icon-star.svg" alt="" />
+							<img src="img/icon-star.svg" alt="" />
+							<img src="img/icon-star.svg" alt="" />
+							<img src="img/icon-star.svg" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="grid-controls">
+					<button class="control left" title="Previous">
+						<svg
+							width="24"
+							height="14"
+							viewBox="0 0 24 14"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0 5.94974H20.9276L16.1128 1.13491L17.2477 0L24 6.75231L17.2477 13.5046L16.1128 12.3697L20.9277 7.55477H0V5.94974Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</button>
+					<button class="control right" title="Next">
+						<svg
+							width="24"
+							height="14"
+							viewBox="0 0 24 14"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0 5.94974H20.9276L16.1128 1.13491L17.2477 0L24 6.75231L17.2477 13.5046L16.1128 12.3697L20.9277 7.55477H0V5.94974Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="newsletter">
+			<div class="wrapper">
+				<div class="newsletter-grid">
+					<div class="newsletter-text-wrapper">
+						<h3 class="newsletter-title">For more news from us</h3>
+						<p class="newsletter-legend">Enter Your Email</p>
+					</div>
+					<form class="newsletter-form">
+						<input
+							type="email"
+							placeholder="Enter Your Email"
+							aria-label="Enter your email"
+							required
+						/>
+						<button class="btn btn-primary">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="site-footer">
+			<div class="wrapper">
+				<div class="footer-inner">
+					<div class="footer-brand">
+						<h4 class="footer-logo">Homefinder</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Eget cursus sed quisque volutpat leo eget
+							vitae sed. Eu mi sed tortor senectus elit phasellus
+							amet.
+						</p>
+					</div>
+					<div class="footer-navs-grid">
+						<div class="nav-holder">
+							<h5 class="nav-title">Navigation</h5>
+							<nav class="nav">
+								<a href="#" class="footer-link">Home</a>
+								<a href="#" class="footer-link">About</a>
+								<a href="#" class="footer-link">Apartment</a>
+								<a href="#" class="footer-link">Contract</a>
+							</nav>
+						</div>
+						<div class="nav-holder">
+							<h5 class="nav-title">Support</h5>
+							<nav class="nav">
+								<a href="#" class="footer-link">Home</a>
+								<a href="#" class="footer-link">About</a>
+								<a href="#" class="footer-link">Apartment</a>
+								<a href="#" class="footer-link">Contract</a>
+							</nav>
+						</div>
+						<div class="nav-holder">
+							<h5 class="nav-title">Terms</h5>
+							<nav class="nav">
+								<a href="#" class="footer-link">Home</a>
+								<a href="#" class="footer-link">About</a>
+								<a href="#" class="footer-link">Apartment</a>
+								<a href="#" class="footer-link">Contract</a>
+							</nav>
+						</div>
+						<div class="nav-holder">
+							<h5 class="nav-title">Contact</h5>
+							<p class="contact-address">
+								Road 5, Street 34/2, New york, Usa
+							</p>
+							<p class="contact-phone">+000 111 222 333</p>
+							<nav class="social-nav">
+								<a
+									href="https://facebook.com"
+									aria-label="Follow us on Facebook"
+									><img src="img/circle-facebook.svg" alt=""
+								/></a>
+								<a
+									href="https://instagram.com"
+									aria-label="Follow us on Instagram"
+									><img src="img/circle-instagram.svg" alt=""
+								/></a>
+								<a
+									href="https://twitter.com"
+									aria-label="Follow us on Twitter"
+									><img src="img/circle-twitter.svg" alt=""
+								/></a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
